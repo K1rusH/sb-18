@@ -2,8 +2,9 @@ using UnityEngine;
 
 public class jump : Mono ...
 {
+	переменная = 0;
 	void start()
 	{
-	
+		переменная = 1;
 	}
 }
