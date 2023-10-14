@@ -1,9 +1,13 @@
 using UnityEngine;
 
 public class jump : Mono ...
-{
+{	
+	jump_force = 10;
 	void start()
 	{
-	
+		if(Input.Get(Space))
+		{
+			jump_force = jump_force *2;
+		}
 	}
 }
