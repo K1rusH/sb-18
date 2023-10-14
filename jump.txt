@@ -1,1 +1,9 @@
-jaljdlasjdlkaslkd
+using UnityEngine;
+
+public class jump : Mono ...
+{
+	void start()
+	{
+	
+	}
+}
